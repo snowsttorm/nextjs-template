@@ -1,0 +1,29 @@
+{
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "semi": true,
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "quoteProps": "as-needed",
+  "tailwindConfig": "./tailwind.config.ts",
+  "tailwindFunctions": ["cn", "cva", "tw"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "options": {
+        "parser": "typescript"
+      }
+    },
+    {
+      "files": ["**/app/**/*.{ts,tsx}"],
+      "options": {
+        "trailingComma": "all"
+      }
+    }
+  ]
+}

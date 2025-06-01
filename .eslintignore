@@ -1,0 +1,13 @@
+/node_modules
+/.next
+/out
+/build
+/dist
+/coverage
+*.min.js
+*.bundle.js
+*.tsbuildinfo
+next-env.d.ts
+*.log
+*.cache
+/app/.next/

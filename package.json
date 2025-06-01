@@ -1,0 +1,45 @@
+{
+  "name": "next-template",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "dev:https": "ts-node localHttpsServer.ts"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.4",
+    "clsx": "^2.1.1",
+    "lodash.debounce": "^4.0.8",
+    "motion": "^12.15.0",
+    "next": "15.3.3",
+    "next-intl": "^4.1.0",
+    "react": "^19.1.0",
+    "react-cookie": "^8.0.1",
+    "react-dom": "^19.1.0",
+    "react-hot-toast": "^2.5.2",
+    "swr": "^2.3.3",
+    "tailwind-merge": "^3.3.0",
+    "zod": "^3.25.45"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/lodash.debounce": "^4.0.9",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@typescript-eslint/eslint-plugin": "^8.33.0",
+    "@typescript-eslint/parser": "^8.33.0",
+    "eslint": "^9.28.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-next": "^0.0.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.12",
+    "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  }
+}

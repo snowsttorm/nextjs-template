@@ -1,0 +1,23 @@
+{
+  "lang_guess": {
+    "question": "what language would you like to use?",
+    "select": "select your language",
+    "continue": "continue"
+  },
+  "common": {
+    "unauthorized": "unauthorized",
+    "not_found": "page not found"
+  },
+  "error": {
+    "title": "something went wrong",
+    "unknown": "an unknown error occurred",
+    "retry": "retry",
+    "step_back": "step back"
+  },
+  "not_found": {
+    "title": "page not found",
+    "description": "we couldn't find the page you're looking for. it might have been moved or deleted",
+    "refresh": "refresh",
+    "step_back": "step back"
+  }
+}
