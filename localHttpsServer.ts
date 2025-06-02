@@ -16,7 +16,7 @@ const app = next({
   dev,
   hostname,
   port,
-  ...nextConfig,
+  conf: nextConfig,
 });
 const handle = app.getRequestHandler();
 
